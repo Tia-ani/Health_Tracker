@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --accent-color: #3B82F6;
+}
+
+/* Light mode text colors */
+.text-gray-900 {
+  @apply text-gray-900;
+}
+
+.text-gray-800 {
+  @apply text-gray-800;
+}
+
+.text-gray-700 {
+  @apply text-gray-700;
+}
+
+.text-gray-600 {
+  @apply text-gray-600;
+}
+
+.text-gray-500 {
+  @apply text-gray-500;
+}
+
+/* Dark mode overrides */
+.dark {
+  @apply bg-gray-900 text-white;
+}
+
+.dark .bg-white {
+  @apply bg-gray-800;
+}
+
+.dark .text-gray-900 {
+  @apply text-white;
+}
+
+.dark .text-gray-800 {
+  @apply text-gray-100;
+}
+
+.dark .text-gray-700 {
+  @apply text-gray-300;
+}
+
+.dark .text-gray-600 {
+  @apply text-gray-400;
+}
+
+.dark .text-gray-500 {
+  @apply text-gray-400;
+}
+
+.dark .border-gray-200 {
+  @apply border-gray-700;
+}
+
+.dark .border-gray-100 {
+  @apply border-gray-700;
+}
+
+.dark .bg-gray-50 {
+  @apply bg-gray-900;
+}
+
+.dark .bg-gray-100 {
+  @apply bg-gray-700;
+}
+
+.dark .hover\:bg-gray-50:hover {
+  @apply hover:bg-gray-800;
+}
+
+.dark .hover\:bg-gray-100:hover {
+  @apply hover:bg-gray-700;
+}
+
+.dark .hover\:bg-gray-200:hover {
+  @apply hover:bg-gray-600;
+}
+
+.dark select {
+  @apply bg-gray-700 border-gray-600 text-gray-100;
+}
+
+.dark select option {
+  @apply bg-gray-700 text-gray-100;
+}
